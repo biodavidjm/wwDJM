@@ -1,0 +1,26 @@
+/* davidjmestilos.css: Styles of davidjm's web */
+
+body 
+{
+  margin-left: 30%; margin-right: 10%;
+  margin-top:20%;
+  color: white; background: black;
+  align:center;
+}
+
+div.maindiv
+{
+  border:solid; 
+  border-width:thin;
+  width:400px;
+  text-align:center;
+  vertical-align:center;
+}
+div.name
+{
+  font-family:Arial, Verdana;
+  font-size:8px;
+  text-align:center;
+  width:400px;
+  height:400px;
+}
