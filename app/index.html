@@ -13,6 +13,7 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/first_cv.css">
     <!-- endbuild -->
   </head>
   <body ng-app="wwDavidJmApp">
@@ -23,13 +24,13 @@
     <!-- Add your site or application content here -->
     <div class="container">
       <div class="header">
-        <ul class="nav nav-pills pull-right">
+        <ul class="nav nav-pills pull-left">
           <li class="active"><a ng-href="#">Home</a></li>
-<!--           <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#">Contact</a></li> -->
+          <li><a ng-href="#/about">CV</a></li>
+          <!-- <li><a ng-href="#">Contact</a></li> -->
         </ul>
-        <h3 class="text-muted">DavidJM</h3>
       </div>
+      <br/>
 
       <div ng-view=""></div>
 
