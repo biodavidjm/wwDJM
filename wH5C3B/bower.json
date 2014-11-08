@@ -1,0 +1,7 @@
+{
+  "name": "wh5c3b",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
