@@ -12,6 +12,63 @@ body {
   background-color: #000052;
 }
 
+/*PANELS*/
+
+/*MAIN BODY*/
+.panelBlack {
+    height: 250px;
+    background-color: #0041C2;
+    color: white;
+    border: 10px solid white;
+}
+
+.panelBlue {
+    height: 250px;
+    line-height: 200px;
+    background-color: #15317E;
+    color: white;
+    border: 10px solid white;
+    vertical-align: middle;
+}
+.panelGreen {
+    height: 250px;
+    background-color: #2B547E;
+    color: white;
+    border: 10px solid white;
+}
+.panelShiny {
+    height: 250px;
+    background-color: #1F45FC;
+    color: white;
+    border: 10px solid white;
+}
+
+/*CUSTOMIZE THE BUTTON*/
+.btn-group {
+  padding-bottom: 10px;
+}
+.btn-default {
+  border-color: white;
+}
+/*Check this example and see how you can customize a button*/
+.btn-custom {
+  background-color: hsl(193, 32%, 22%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a0c4ce", endColorstr="#26424a");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#a0c4ce), to(#26424a));
+  background-image: -moz-linear-gradient(top, #a0c4ce, #26424a);
+  background-image: -ms-linear-gradient(top, #a0c4ce, #26424a);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a0c4ce), color-stop(100%, #26424a));
+  background-image: -webkit-linear-gradient(top, #a0c4ce, #26424a);
+  background-image: -o-linear-gradient(top, #a0c4ce, #26424a);
+  background-image: linear-gradient(#a0c4ce, #26424a);
+  border-color: #26424a #26424a hsl(193, 32%, 9.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.82);
+  -webkit-font-smoothing: antialiased;
+}
+
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
