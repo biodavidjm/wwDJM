@@ -14,6 +14,9 @@ body {
 
 /*PANELS*/
 
+.twits {
+  text-align: center;
+}
 /*MAIN BODY*/
 .panelBlack {
     height: 250px;
